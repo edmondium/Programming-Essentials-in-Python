@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculator"
+description = "A small example package"
+version = "0.1.0"
+readme = "README.md"
+authors = [
+    { name = "Edmond Febrinicko Armay", email = "nicko@uin-suska.ac.id" }
+]
+dependencies = [
+    "scipy"
+]
